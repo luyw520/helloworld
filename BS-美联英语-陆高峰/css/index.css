@@ -1,0 +1,322 @@
+#container{
+	height: 35px;
+	line-height: 35px;
+	background-color: gray;
+	color: white;
+}
+.ltinme{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	color: white;
+}
+.ltinme:hover{
+	background-color: #bdbdbd;
+	color: white;
+}
+.navbar{
+	border-radius:0 ;
+	margin-bottom: 0;
+}
+#navbar li:hover{
+	background-color: rgba(214, 214, 214, 0.41);
+	
+}
+.myMP{
+	margin: 20px;
+}
+.myB{
+	margin-bottom: 20px;
+}
+#notice{
+	background:#333333;
+	padding: 20px 0;
+
+}
+#notice h5,#notice h4{
+	color: #d9d9d9;
+}
+#notice p{
+	color: #666;
+	line-height: 24px;
+}
+/*#mycharge{
+	padding-top: 25px;
+}*/
+#mycharge .btn{
+	width: 130px;
+	background-color: #ffd300;
+	color: #333;
+}
+@media only screen and (max-width: 768px) {
+	#mycharge {
+		float: left;
+	}
+}
+#home_time{
+	position:relative;
+	padding-top: 75px;
+	
+}
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 38px;
+    color: #00a080;
+    font-weight: 100;
+}
+#time-trend{
+	padding: 35px 0;
+	color: white;
+	background-color: #00a080;
+}
+#time-trend .img-responsive{
+	display: inline-block;
+}
+#home_crowd{
+	padding-top: 225px;
+	padding-bottom: 50px;
+	margin-top: -150px;
+	background: url(../img/bg.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#home_crowd h4{
+	max-width: 655px;
+	margin: 0 auto 30px auto;
+	color: white;
+	line-height: 30px;
+}
+#home_crowd h4 span{
+	color: #ffd300;
+}
+#home_crowd h3{
+	margin-bottom: 15px;
+    color: #00a080;
+}
+#home_crowd .row h4{
+	color: white;
+	margin: 15px 0;
+	
+}
+#home_crowd .row p{
+	color: white;
+	line-height: 25px;
+}
+#home_teacher{
+	 padding-top: 75px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+ h4.subtitle{
+	margin-bottom: 20px;
+    color: #666;
+    text-align: center;
+    line-height: 30px;
+}
+#home_teacher .titem,#home_teacher .tmore{
+	position: relative;
+	
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px gray;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px #f6f792;
+	
+}
+#home_teacher .titem .tname.right{
+	position: absolute;
+	right: 25px;
+	text-align: right;
+}
+#home_teacher .titem .tname.right h2{
+	line-height: 20px;
+    font-size: 30px;
+	color: white;
+	right: 25px;
+	text-align: right;
+	padding-bottom: 0;
+	
+}
+#home_teacher .titem .tname.left{
+	position: absolute;
+	left: 25px;
+	text-align: left;
+}
+#home_teacher .titem .tname.left h2{
+	line-height: 20px;
+    font-size: 30px;
+	color: white;
+	right: 25px;
+	text-align: left;
+	padding-bottom: 0;
+	
+}
+#home_teacher .tmore {
+    display: block;
+    min-height: 200px;
+    line-height: 30px;
+    padding-top: 45px;
+    color: #fff;
+    background-color: #eb7085;
+    filter: alpha(opacity=75);
+    -moz-opacity: .75;
+    opacity: .75;
+}
+/*6大课程体系，总有一款适合你 */
+#home_course {
+    padding-bottom: 100px;
+}
+#home_course .courseitem{
+	display: block;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+   
+    font-size: 18px;
+}
+#home_course  .col1{
+	background-color: rgba(217,80,114,.85);
+}
+#home_course  .col2{
+	background-color: rgba(217,80,114,.65);
+}
+#home_course div.row>div {
+    padding: 0;
+    margin: 0;
+}
+/*学伴 */
+#home_partner{
+	padding-bottom: 100px;
+}
+#home_partner img{
+	width: 100%;
+	 border-bottom: solid 5px #f6f792;
+}
+#home_partner p{
+	color: #666;
+}
+/*  打赏*/
+#home_reward {
+	padding-top: 50px;
+}
+#home_reward .reward-info {
+    padding-top: 235px;
+    padding-bottom: 50px;
+    margin-top: -200px;
+    color: #fff;
+    text-align: center;
+    background-color: #00a080;
+}
+#home_reward a{
+color: white;
+	
+}
+/*退费 */
+#home_refund {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#home_refund h4{
+	color: white;
+}
+#home_refund .refund-item {
+    padding: 20px;
+    color: #f3f3f3;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+#home_refund h3{
+	padding: 0 25px;
+	color: #00a080;
+}
+/* 4+核心优势 N+成效保障 */
+#home_service{
+	margin-top: 100px;
+	 padding-top: 75px;
+    padding-bottom: 100px;
+    line-height: 30px;
+}
+#home_service .media-body p {
+    max-width: 700px;
+}
+/*小美GOGO*/
+#home_xmgo{
+	  padding-top: 75px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home_xmgo .row{
+	margin-top: 30px;
+}
+#home_xmgo .row h5{
+	padding: 10px;
+	background-color: rgba(51,51,51,.2);
+	color: #f3f3f3;
+}
+/*学习流程*/
+#shared_studystep{
+	padding-bottom: 100px;
+	line-height: 30px;
+}
+#shared_studystep .sindex{
+	position: absolute;
+	top: -20px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius:50% ;
+	background-color: #1bbc9b;
+	margin-left: -20px;
+}
+#shared_studystep .stepitem{
+	padding: 50px 10px 10px 10px;
+	margin-bottom: 30px;
+	border: 1px dashed #1bbc9b;
+}
+/*企业荣誉 & 企业客户*/
+#layout_block_credit{
+	padding: 75px 0 100px 0;
+    color: #f3f3f3;
+    line-height: 25px;
+    background-color: #232323;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*footer*/
+footer{
+	 padding-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #c7c7c7;
+    background-color: #323232;
+}
+footer ul li a{
+	color: #c7c7c7;
+}
+footer ul li a:hover{
+	 color: #ffd300;
+}
+footer a{
+color: #c7c7c7;	
+}
+footer a:hover{
+	 color: #ffd300;
+}
